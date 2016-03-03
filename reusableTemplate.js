@@ -1,7 +1,10 @@
 var library = (function(){
 	return {
 		// Utility --- Complete Functions Below
-		identity : function(val) {},
+		identity : function(val) {
+            return val;
+            
+        },
 
 		// Collections --- Complete Functions Below
 		each : function(list, iterator) {},

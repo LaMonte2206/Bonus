@@ -2,7 +2,9 @@
 
 describe('Utilities', function() {
 	describe('identity', function() {
-		var newObject = {};
+		var newObject = function(){
+            
+        };
 
 		it('should return whatever value it is passed', function() {
 		expect(library.identity(1)).to.equal(1);
